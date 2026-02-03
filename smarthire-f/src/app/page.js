@@ -5,6 +5,8 @@ import HowItWorks from "@/components/home/HowItWorks";
 import GetStarted from "@/components/home/GetStarted";
 import SucessStories from "@/components/home/SuccessStories";
 import Footer from "@/components/layout/Footer";
+import AboutSection from "@/components/home/AboutSection";
+import CoreValues from "@/components/home/CoreValues";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <HowItWorks />
         <GetStarted />
         <SucessStories />
+        <AboutSection/>
+        <CoreValues/>
       </main>
       <Footer />
     </>
