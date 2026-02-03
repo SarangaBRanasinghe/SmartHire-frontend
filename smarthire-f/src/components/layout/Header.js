@@ -16,13 +16,13 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2">
               <Image 
-                src="/logo.svg" 
+                src="/images/logo.png"
                 alt="SmartHire Logo" 
                 width={40} 
                 height={40}
-                className="w-10 h-10"
+                className="w-35 h-35"
               />
-              <span className="text-2xl font-bold text-emerald-600">SmartHire</span>
+              
             </Link>
           </div>
 
